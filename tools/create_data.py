@@ -13,6 +13,7 @@ from os import path as osp
 import sys
 sys.path.append('.')
 
+# python tools/create_data.py nuscenes --root-path /mnt/data/chenq/data/NuScenes1_0/nuscenes/ --out-dir mnt/data/chenq/data/NuScenes1_0/nuscenes/ --extra-tag nuscenes --version v1.0 --canbus /mnt/data/chenq/data/NuScenes1_0/
 
 def kitti_data_prep(root_path, info_prefix, version, out_dir):
     """Prepare data related to Kitti dataset.
